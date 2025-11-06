@@ -4,7 +4,7 @@
  
  export const NavBar = () => {
    return (
-     <div>
+     <div className='NavBar'>
 
         <img src="" alt="" />
         <h2>Extensions</h2>
