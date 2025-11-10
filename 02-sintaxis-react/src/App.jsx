@@ -3,6 +3,7 @@ import "./App.css"
 import { NavBar } from './componets/NavBar'
 import { ExtensionCard } from './componets/ExtensionCard'
 import { LoginForm } from './componets/LoginForm'
+import { ProductCard } from './componets/ProductCard'
 export const App = () => {
   return (
     <>
@@ -45,7 +46,7 @@ cardDescription="red social para compartir fotos y videos"/>
         <h1>react+boostrap</h1>
 
       <LoginForm />
-    
+    <ProductCard/>
     
     </>
   )
