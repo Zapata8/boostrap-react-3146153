@@ -1,0 +1,97 @@
+.tile {
+  height: 120px;
+  border-radius: 0px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.container1{
+  display: flex;
+  align-items: center;
+  gap: 95vh;
+}
+.tile-big,
+.big-tile { 
+  height: 260px; 
+}
+.redes-icons{
+  width: 10rem;
+  height: auto;
+}
+
+.tile-wide,
+.long-tile { 
+  height: 120px; 
+}
+
+
+.tile-green {
+  background: #7ab29f;
+}
+
+.tile-lightgreen {
+  background: #75b7a7;
+}
+
+.tile-blue {
+  background: #4ca0c3;
+  width: auto;
+  height: 17rem;
+}
+
+.tile-pink {
+  background: #cc5b8b;
+}
+
+.tile-red {
+  background: #b95645;
+  margin-top: -8.5rem;
+}
+
+.tile-orange {
+  background: #c5743c;
+  margin-top: -8.5rem;
+  margin-right: -25rem;
+  margin-left: 25rem;
+}
+
+.tile-yellow {
+  background: #f0a52e;
+  margin-top: -8.5rem;
+  margin-right: -25rem;
+  margin-left: 25rem;
+}
+
+
+
+
+.icon-metrika {
+  font-size: 38px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.95;
+  margin-bottom: 8px;
+}
+
+.icon-metrika-big {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.95;
+  margin-bottom: 12px;
+}
+
+
+
+
+.tile span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: white;
+  margin-right: 80px;
+}
