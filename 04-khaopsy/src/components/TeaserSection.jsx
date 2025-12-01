@@ -17,15 +17,15 @@ function TeaserSection() {
                 className="img-fluid shadow-sm"
               />
               <button className="btn btn-danger btn-sm teaser-overlay-btn">
-                VER TRAILER
+                VER TEASER
               </button>
             </div>
 
             <div className="mt-3">
               <button className="btn btn-secondary w-100 mb-1">
-                DISPONIBLE AHORA EN
+                INGRSA AQUI AL COMIC 👇
               </button>
-              <button className="btn btn-dark px-4">CINES</button>
+              <button className="btn btn-dark px-4">VER COMIC</button>
             </div>
           </div>
         </div>
