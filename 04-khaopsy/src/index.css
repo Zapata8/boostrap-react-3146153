@@ -10,7 +10,7 @@
 }
 
 
-.section-header-title {
+.secion-header-titulo {
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.5rem;      
@@ -31,29 +31,44 @@
 }
 
 
-.member-photo {
-  max-width: 170px;
-  height: auto;
+.members-section {
+  background-color: #d1d1d1;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
-.miembro-descripcion {
-  max-width: 280px;
-  font-size: 0.75rem;
+
+.members-wrapper {
+  max-width: 900px;
+}
+
+
+.member-photo {
+  max-width: 200px;          
+  border-radius: 4px;
+  transition: transform 0.35s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+
+.member-photo:hover {
+  transform: scale(1.15) rotate(3deg);      
+}
+
+
+.member-description {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   text-align: justify;
 }
-
-.member-name-small {
-  font-size: 0.7rem;
-}
-
-
 .store-section {
   background-image: url("./assets/donde.bg.png"); 
   background-repeat: repeat;                     
   background-size: 900px;                        
   background-position: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 100px;
+  padding-bottom: 180px;
+  
 }
 .product-card {
   background-color: #cfcfcf;
@@ -137,4 +152,32 @@
   .miembro-descripcion {
     font-size: 0.8rem;
   }
+}
+.product-image-area {
+  overflow: hidden; 
+}
+
+.product-image {
+  transition: transform 0.3s ease;
+}
+
+.product-image-area:hover .product-image {
+  transform: scale(1.25); 
+}
+.cart-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cart-btn:hover {
+  transform: scale(1.2);
+}
+
+.cart-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
 }

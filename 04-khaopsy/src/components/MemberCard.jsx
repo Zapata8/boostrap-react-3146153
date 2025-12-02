@@ -12,16 +12,16 @@ function MemberCard({ name, role, description, photo, showDescription }) {
       <img
         src={photo}
         alt={name}
-        className="img-fluid member-photo mb-2"
+        className="img-fluid miembro-foto mb-2"
       />
 
       {showDescription && (
-        <p className="member-description mx-auto">
+        <p className="miembro-descripcion mx-auto">
           {description}
         </p>
       )}
 
-      <p className="mt-1 mb-0 member-name-small">{name}</p>
+      <p className="mt-1 mb-0 miembro-nombre">{name}</p>
       {role && <p className="mb-0 text-muted" style={{ fontSize: "0.75rem" }}>{role}</p>}
     </div>
   );

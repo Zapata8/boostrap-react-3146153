@@ -1,49 +1,55 @@
 import React from "react";
-import SectionHeader from "./SectionHeader";
-import MemberCard from "./MemberCard";
-
+import SectionHeader from "./SectionHeader.jsx";
 import juanJose from "../assets/juan-jose.jpg";
 import juanSebastian from "../assets/juan-sebastian.jpg";
 
 function MembersSection() {
-  const textoDescripcion =
-    "Somos dos adolescentes que estudian Producción de Multimedia en el SENA. Comprometidos con contar historias profundas y provocadoras, creamos KHAOPSY, un proyecto transmedia que retrata el apocalipsis de forma cruda y realista. A través de imágenes, narrativa y contenido digital, buscamos generar conciencia sobre los posibles colapsos sociales y espirituales que enfrenta la humanidad. Nuestro enfoque explora cómo la psicología y la fe influyen en las decisiones humanas durante momentos de crisis extremas.";
-
   return (
-    <section id="integrantes" className="mt-4">
-  <SectionHeader title="INTEGRANTES" />
+    <section id="integrantes" className="members-section">
+      <SectionHeader title="INTEGRANTES" />
 
-  <div className="container mt-3">
-    <div className="row justify-content-center">
-      <div className="col-11 col-md-6">
+      <div className="container mt-4 members-wrapper">
+        <div className="row justify-content-center">
 
-        
-        <MemberCard
-          name="Juan José"
-        
-          photo={juanJose}
-          description=""
-          
-        />
-
- 
-        <p className="miembro-descripcion mx-auto text-center my-3">
-          Somos dos adolescentes que estudian Producción de Multimedia en el SENA. Comprometidos con contar historias profundas y provocadoras, creamos "KHAOPSY", un proyecto transmedia que retrata el apocalipsis de forma cruda y realista. A través de imágenes, narrativa y contenido digital, buscamos generar conciencia sobre los posibles colapsos sociales y espirituales que enfrenta la humanidad. Nuestro enfoque explora cómo la psicología y la fe influyen en las decisiones humanas durante momentos de crisis extremas.
-        </p>
-
-        {/* Segundo integrante */}
-        <MemberCard
-          name="Juan Sebastian"
-          
-          photo={juanSebastian}
          
-          
-        />
+          <div className="col-12 col-md-5 text-center mb-4 mb-md-0">
+            
+            <div className="mb-4">
+              <h5 className="mb-2">Juan Jose</h5>
+              <img
+                src={juanJose}
+                alt="Juan Jose"
+                className="img-fluid member-photo"
+              />
+            </div>
 
+            
+            <div>
+              <h5 className="mb-2">Juan Sebastian</h5>
+              <img
+                src={juanSebastian}
+                alt="Juan Sebastian"
+                className="img-fluid member-photo"
+              />
+            </div>
+          </div>
+
+          
+          <div className="col-12 col-md-5 d-flex align-items-center">
+            <p className="member-description">
+              Somos dos adolescentes que estudian Producción de Multimedia en el SENA.
+              Comprometidos con contar historias profundas y provocadoras, creamos
+              “KHAOPSY”, un proyecto transmedia que retrata el apocalipsis de forma
+              cruda y realista. A través de imágenes, narrativa y contenido digital,
+              buscamos generar conciencia sobre los posibles colapsos sociales y
+              espirituales que enfrenta la humanidad. Nuestro enfoque explora cómo la
+              psicología y la fe influyen en las decisiones humanas durante momentos de
+              crisis extremas.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
   );
 }
 
