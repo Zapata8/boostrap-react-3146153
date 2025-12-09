@@ -22,7 +22,11 @@ function MemberCard({ name, role, description, photo, showDescription }) {
       )}
 
       <p className="mt-1 mb-0 miembro-nombre">{name}</p>
-      {role && <p className="mb-0 text-muted" style={{ fontSize: "0.75rem" }}>{role}</p>}
+      {role && (
+        <p className="mb-0 text-muted" style={{ fontSize: "0.75rem" }}>
+          {role}
+        </p>
+      )}
     </div>
   );
 }

@@ -5,34 +5,38 @@ import ytIcon from "../assets/icon-youtube.png";
 
 function Footer() {
   return (
-    <footer className="footer-section mt-4 pt-3 pb-4">
+    <footer className="seccion-pie mt-4 pt-3 pb-4">
       <div className="container">
         <div className="row justify-content-center text-white">
           <div className="col-11 col-md-6">
-            <p className="footer-title mb-1">CONTACTO:305 3915570</p>
-            <p className="mb-3 footer-text">
-              CORREO: Khaopsy@gmail.com.com
+
+            <p className="titulo-pie mb-1">CONTACTO: 305 3915570</p>
+
+            <p className="mb-3 texto-pie">
+              CORREO: Khaopsy@gmail.com
             </p>
 
-          
-            <div className="d-flex justify-content-center gap-4 footer-icons">
-              <a href="#" className="footer-icon-link">
-                <span className="footer-icon-circle">
-                  <img src={igIcon} alt="Instagram" className="footer-icon-img" />
+            {/* ICONOS DE REDES */}
+            <div className="d-flex justify-content-center gap-4 iconos-pie">
+              
+              <a href="#" className="enlace-icono-pie">
+                <span className="circulo-icono-pie">
+                  <img src={igIcon} alt="Instagram" className="imagen-icono-pie" />
                 </span>
               </a>
 
-              <a href="#" className="footer-icon-link">
-                <span className="footer-icon-circle">
-                  <img src={waIcon} alt="WhatsApp" className="footer-icon-img" />
+              <a href="#" className="enlace-icono-pie">
+                <span className="circulo-icono-pie">
+                  <img src={waIcon} alt="WhatsApp" className="imagen-icono-pie" />
                 </span>
               </a>
 
-              <a href="#" className="footer-icon-link">
-                <span className="footer-icon-circle">
-                  <img src={ytIcon} alt="YouTube" className="footer-icon-img" />
+              <a href="#" className="enlace-icono-pie">
+                <span className="circulo-icono-pie">
+                  <img src={ytIcon} alt="YouTube" className="imagen-icono-pie" />
                 </span>
               </a>
+
             </div>
 
           </div>

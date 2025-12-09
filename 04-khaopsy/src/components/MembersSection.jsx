@@ -19,7 +19,7 @@ function MembersSection() {
               <img
                 src={juanJose}
                 alt="Juan Jose"
-                className="img-fluid member-photo"
+                className=" miembro-foto"
               />
             </div>
 
@@ -29,14 +29,14 @@ function MembersSection() {
               <img
                 src={juanSebastian}
                 alt="Juan Sebastian"
-                className="img-fluid member-photo"
+                className=" miembro-foto"
               />
             </div>
           </div>
 
           
           <div className="col-12 col-md-5 d-flex align-items-center">
-            <p className="member-description">
+            <p className="miembro-descripcion">
               Somos dos adolescentes que estudian Producción de Multimedia en el SENA.
               Comprometidos con contar historias profundas y provocadoras, creamos
               “KHAOPSY”, un proyecto transmedia que retrata el apocalipsis de forma

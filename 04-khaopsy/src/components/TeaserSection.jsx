@@ -10,13 +10,13 @@ function TeaserSection() {
       <div className="container mt-3">
         <div className="row justify-content-center">
           <div className="col-11 col-md-6 text-center">
-            <div className="position-relative teaser-image-wrapper">
+            <div className="position-relative contenedor-imagen-teaser">
               <img
                 src={teaserImg}
                 alt="Teaser"
                 className="img-fluid shadow-sm"
               />
-              <button className="btn btn-danger btn-sm teaser-overlay-btn">
+              <button className="btn btn-danger btn-sm boton-teaser-superpuesto">
                 VER TEASER
               </button>
             </div>
