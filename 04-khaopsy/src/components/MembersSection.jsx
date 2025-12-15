@@ -36,7 +36,7 @@ function MembersSection() {
 
           
           <div className="col-12 col-md-5 d-flex align-items-center">
-            <p className="miembro-descripcion">
+            <p className=" fs-4    miembro-descripcion">
               Somos dos adolescentes que estudian Producción de Multimedia en el SENA.
               Comprometidos con contar historias profundas y provocadoras, creamos
               “KHAOPSY”, un proyecto transmedia que retrata el apocalipsis de forma

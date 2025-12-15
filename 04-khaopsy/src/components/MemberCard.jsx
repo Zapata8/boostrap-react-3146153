@@ -1,7 +1,3 @@
-
-
-
-
 import React from "react";
 
 function MemberCard({ name, role, description, photo, showDescription }) {

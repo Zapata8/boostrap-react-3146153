@@ -13,7 +13,7 @@ function ProductCard({ title, description, price, image }) {
         <p className="precio-producto mb-0">{price}</p>
 
         <button className="boton-carrito">
-          <img src={cartIcon} alt="Carrito" className="icono-carrito" />
+          <img src={cartIcon} alt="Carrito" className="icono-carrito  object-fit-cover " style={{Width:"26px" , height:"26px"}}  />
         </button>
       </div>
     </div>

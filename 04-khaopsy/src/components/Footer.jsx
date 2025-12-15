@@ -16,24 +16,25 @@ function Footer() {
               CORREO: Khaopsy@gmail.com
             </p>
 
-            {/* ICONOS DE REDES */}
+           
             <div className="d-flex justify-content-center gap-4 iconos-pie">
               
               <a href="#" className="enlace-icono-pie">
                 <span className="circulo-icono-pie">
-                  <img src={igIcon} alt="Instagram" className="imagen-icono-pie" />
+                  <img src={igIcon} alt="Instagram" className="object-fit-contain imagen-icono-pie"style={{Width:"28px" , height:"28px"}} 
+                  />
                 </span>
               </a>
 
               <a href="#" className="enlace-icono-pie">
                 <span className="circulo-icono-pie">
-                  <img src={waIcon} alt="WhatsApp" className="imagen-icono-pie" />
+                  <img src={waIcon} alt="WhatsApp" className="imagen-icono-pie"style={{Width:"28px" , height:"28px"}}  />
                 </span>
               </a>
 
               <a href="#" className="enlace-icono-pie">
                 <span className="circulo-icono-pie">
-                  <img src={ytIcon} alt="YouTube" className="imagen-icono-pie" />
+                  <img src={ytIcon} alt="YouTube" className="imagen-icono-pie"style={{Width:"28px" , height:"28px"}}  />
                 </span>
               </a>
 

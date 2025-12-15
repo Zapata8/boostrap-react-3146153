@@ -7,43 +7,14 @@
   background-position: center;
   min-height: 55px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 1rem;
 }
-
-.encabezado-seccion-titulo {
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  font-size: 2rem;
-  margin: 0;
-}
-
-
-
-.contenedor-imagen-teaser {
-  display: inline-block;
-}
-
 .boton-teaser-superpuesto {
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  right: 140px;
   font-size: 0.7rem;
   padding: 2px 8px;
-}
-
-
-
-.seccion-integrantes {
-  background-color: #d1d1d1;
-  padding-top: 40px;
-  padding-bottom: 60px;
-}
-
-.contenedor-integrantes {
-  max-width: 900px;
 }
 
 .miembro-foto {
@@ -57,22 +28,13 @@
 .miembro-foto:hover {
   transform: scale(1.15) rotate(3deg);
 }
-
-.descripcion-integrantes {
-  font-size: 1.2rem;
-  line-height: 1.4rem;
-  text-align: justify;
-}
-
-
-
 .seccion-tienda {
   background-image: url("./assets/donde.bg.png");
   background-repeat: repeat;
   background-size: 900px;
   background-position: center;
-  padding-top: 40px;
-  padding-bottom: 180px;
+  padding-top: 0.5px;
+  padding-bottom: 185px;
 }
 
 .tarjeta-producto {
@@ -105,34 +67,15 @@
   font-size: 1.1rem;
   
 }
-
-.precio-producto {
-  font-size: 0.8rem;
-  font-weight: 600;
-}
-
-
-
 .boton-carrito {
-  background-color: gray;
+  background-color: rgb(207, 204, 204);
   border: none;
-  padding: 0;
-  cursor: pointer;
   transition: transform 0.2s ease;
 }
 
 .boton-carrito:hover {
   transform: scale(1.2);
 }
-
-.icono-carrito {
-  width: 26px;
-  height: 26px;
-  object-fit: contain;
-}
-
-
-
 .seccion-pie {
   background-image: url("./assets/header-bg.png");
   background-repeat: repeat-x;
@@ -144,20 +87,6 @@
   letter-spacing: 3px;
   font-weight: 700;
 }
-
-.texto-pie {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
-.iconos-pie {
-  margin-top: 10px;
-}
-
-.enlace-icono-pie {
-  text-decoration: none;
-}
-
 .circulo-icono-pie {
   width: 55px;
   height: 55px;
@@ -170,20 +99,10 @@
 }
 
 .imagen-icono-pie {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
+  
   transition: transform 0.25s ease, filter 0.25s ease;
 }
 
 
 
-@media (min-width: 768px) {
-  .zona-imagen-producto {
-    height: 220px;
-  }
 
-  .miembro-descripcion {
-    font-size: 1.5rem;
-  }
-}

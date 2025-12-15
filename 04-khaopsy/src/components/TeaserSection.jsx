@@ -7,8 +7,8 @@ function TeaserSection() {
     <section id="teaser">
       <SectionHeader title="TEASER" />
 
-      <div className="container mt-3">
-        <div className="row justify-content-center">
+      <div className="container ">
+        <div className="row d-flex justify-content-center ">
           <div className="col-11 col-md-6 text-center">
             <div className="position-relative contenedor-imagen-teaser">
               <img
@@ -23,9 +23,9 @@ function TeaserSection() {
 
             <div className="mt-3">
               <button className="btn btn-secondary w-100 mb-1">
-                INGRSA AQUI AL COMIC 👇
+                INGRESA AQUI AL COMIC 👇
               </button>
-              <button className="btn btn-dark px-4">VER COMIC</button>
+              <button className="btn btn-dark px-5">VER COMIC</button>
             </div>
           </div>
         </div>
